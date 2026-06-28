@@ -29,6 +29,41 @@
 - name: breaking
   description: Breaking Changes
   color: bfd4f2
+- name: regression
+  description: Worked in a previous version
+  color: e11d21
+- name: fixed-pending-release
+  description: Awaiting Release
+  color: 0e8a16
+- name: P0
+  description: 'Priority: Blocker'
+  color: b60205
+- name: P1
+  description: 'Priority: High'
+  color: d93f0b
+- name: P2
+  description: 'Priority: Medium'
+  color: fbca04
+- name: P3
+  description: 'Priority: Low'
+  color: c2e0c6
+
+# Release targets (mirror the board's "Target" field).
+- name: v8.0.0-rc.3
+  description: Targeted for the 8.0.0-rc.3 release
+  color: 5319e7
+- name: v8.0.0-rc.4
+  description: Targeted for the 8.0.0-rc.4 release
+  color: 5319e7
+- name: v8.0.0-rc.5
+  description: Targeted for the 8.0.0-rc.5 release
+  color: 5319e7
+- name: v8.0.0
+  description: Targeted for the 8.0.0 stable release
+  color: 5319e7
+- name: v9
+  description: Deferred to v9
+  color: '0052cc'
 - name: help wanted
   description: Extra attention is needed
   color: 008672

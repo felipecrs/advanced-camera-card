@@ -193,6 +193,7 @@
     "format-check": "prettier --check .",
     "rollup": "rollup -c",
     "prune": "ts-prune",
+    "typecheck-scripts": "tsc -p .github/scripts/project-triage/tsconfig.json",
     "test": "vitest run",
     "coverage": "vitest run --coverage"
   },
